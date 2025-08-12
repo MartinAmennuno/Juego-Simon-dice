@@ -1,9 +1,7 @@
-from game import Game
-
+from game.simon import Game
 
 def main():
-    bucle = Game()
-    bucle.bucle_juego()
+    Game()
 
 
 if __name__ == "__main__":
